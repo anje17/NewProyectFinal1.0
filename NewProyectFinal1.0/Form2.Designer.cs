@@ -39,7 +39,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            label1 = new Label();
             button5 = new Button();
             button4 = new Button();
             button3 = new Button();
@@ -47,8 +49,6 @@
             button1 = new Button();
             guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            label1 = new Label();
             guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             guna2CustomGradientPanel1.SuspendLayout();
             guna2CustomGradientPanel2.SuspendLayout();
@@ -71,6 +71,17 @@
             guna2CustomGradientPanel1.Size = new Size(305, 1092);
             guna2CustomGradientPanel1.TabIndex = 0;
             // 
+            // guna2HtmlLabel1
+            // 
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Shruti", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2HtmlLabel1.ForeColor = SystemColors.ActiveCaptionText;
+            guna2HtmlLabel1.Location = new Point(118, 19);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(111, 48);
+            guna2HtmlLabel1.TabIndex = 6;
+            guna2HtmlLabel1.Text = "Servicios";
+            // 
             // guna2CustomGradientPanel2
             // 
             guna2CustomGradientPanel2.BackColor = Color.Transparent;
@@ -91,6 +102,18 @@
             guna2CustomGradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2CustomGradientPanel2.Size = new Size(305, 711);
             guna2CustomGradientPanel2.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Shonar Bangla", 20F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(75, 55);
+            label1.Name = "label1";
+            label1.Size = new Size(154, 51);
+            label1.TabIndex = 7;
+            label1.Text = "Servicios ";
             // 
             // button5
             // 
@@ -131,7 +154,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(46, 143);
+            button1.Location = new Point(46, 135);
             button1.Name = "button1";
             button1.Size = new Size(212, 59);
             button1.TabIndex = 0;
@@ -164,29 +187,6 @@
             guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             guna2CirclePictureBox1.TabIndex = 3;
             guna2CirclePictureBox1.TabStop = false;
-            // 
-            // guna2HtmlLabel1
-            // 
-            guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Shruti", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            guna2HtmlLabel1.ForeColor = SystemColors.ActiveCaptionText;
-            guna2HtmlLabel1.Location = new Point(118, 19);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(111, 48);
-            guna2HtmlLabel1.TabIndex = 6;
-            guna2HtmlLabel1.Text = "Servicios";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Shonar Bangla", 20F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(75, 55);
-            label1.Name = "label1";
-            label1.Size = new Size(154, 51);
-            label1.TabIndex = 7;
-            label1.Text = "Servicios ";
             // 
             // guna2CustomGradientPanel4
             // 

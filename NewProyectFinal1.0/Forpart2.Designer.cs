@@ -39,9 +39,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            label1 = new Label();
             label2 = new Label();
+            label1 = new Label();
+            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
@@ -71,6 +71,30 @@
             guna2CustomGradientPanel1.Size = new Size(1462, 129);
             guna2CustomGradientPanel1.TabIndex = 1;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Simplified Arabic", 14F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.DarkGray;
+            label2.Location = new Point(932, 16);
+            label2.Name = "label2";
+            label2.Size = new Size(96, 46);
+            label2.TabIndex = 2;
+            label2.Text = "buscar";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Simplified Arabic", 14F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkGray;
+            label1.Location = new Point(111, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(218, 46);
+            label1.TabIndex = 1;
+            label1.Text = "Lista de producto";
+            // 
             // guna2TextBox1
             // 
             guna2TextBox1.CustomizableEdges = customizableEdges1;
@@ -90,30 +114,6 @@
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2TextBox1.Size = new Size(474, 58);
             guna2TextBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Simplified Arabic", 14F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkGray;
-            label1.Location = new Point(112, 40);
-            label1.Name = "label1";
-            label1.Size = new Size(218, 46);
-            label1.TabIndex = 1;
-            label1.Text = "Lista de producto";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Simplified Arabic", 14F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.DarkGray;
-            label2.Location = new Point(932, 16);
-            label2.Name = "label2";
-            label2.Size = new Size(96, 46);
-            label2.TabIndex = 2;
-            label2.Text = "buscar";
             // 
             // dataGridView1
             // 
